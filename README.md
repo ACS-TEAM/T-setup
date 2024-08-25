@@ -21,7 +21,7 @@ pkg install python2
 pip install mechanize
 git clone https://github.com/ACS-TEAM/T-setup
 cd T-setup
-python T-setup.py
+python setup.py
 ```
 
 
