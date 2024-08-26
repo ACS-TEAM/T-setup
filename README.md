@@ -14,11 +14,13 @@
 
 #### INSTALL TOOL ON TERMUX⬇️
 ```
+termux-setup-storage
 apt update && apt upgrade -y
 pkg install python
 pip install requests
 pkg install python2
 pip install mechanize
+pkg install git 
 git clone https://github.com/ACS-TEAM/T-setup
 cd T-setup
 python setup.py
